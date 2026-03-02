@@ -11,6 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Drops-Tracker\**\*.cs" />
+    <Page Remove="Drops-Tracker\**\*.xaml" />
+    <ApplicationDefinition Remove="Drops-Tracker\App.xaml" />
+    <EmbeddedResource Remove="Drops-Tracker\**\*" />
+    <Resource Remove="Drops-Tracker\**\*" />
+    <None Remove="Drops-Tracker\**\*" />
     <None Update="assets\**\*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
